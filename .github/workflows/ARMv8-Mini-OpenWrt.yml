@@ -212,7 +212,7 @@ jobs:
 
     - name: Package OpenWrt Firmware
       if: steps.download.outputs.status == 'success'
-      uses: unifreq/openwrt_packit@master
+      uses: david7207/openwrt_packit@master
       env:
         OPENWRT_ARMVIRT: openwrt-armvirt/*rootfs.tar.gz
         PACKAGE_SOC: s905d
