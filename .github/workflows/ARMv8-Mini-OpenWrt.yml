@@ -14,8 +14,8 @@ on:
     - cron: 0 22 1 * *
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/bingbaga/lede.git
+  REPO_BRANCH: v1.20230927
   CONFIG_FILE: configs/armv8-mini.config
   DIY_SCRIPT: diy-mini.sh
   CLASH_KERNEL: arm64
